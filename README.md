@@ -30,18 +30,19 @@ This project is a **Sorting Algorithm Visualizer** built using **React.js**. It 
 
 Open http://localhost:3000/ in your browser.
 
-📌 Available Sorting Algorithms
+##📌 Available Sorting Algorithms
 
-🔹 Bubble Sort
-🔹 Selection Sort
-🔹 Insertion Sort
-🔹 Merge Sort
-🔹 Quick Sort
-🔹 Heap Sort (if implemented)
-📝 Future Improvements
+**🔹 Bubble Sort
+**🔹 Selection Sort
+**🔹 Insertion Sort
+**🔹 Merge Sort
+**🔹 Quick Sort
+**🔹 Heap Sort (if implemented)
 
-🔹 Add more sorting algorithms
-🔹 Improve animations and UI responsiveness
-🔹 Add a step-by-step breakdown mode
+##📝 Future Improvements
+
+**🔹 Add more sorting algorithms
+**🔹 Improve animations and UI responsiveness
+**🔹 Add a step-by-step breakdown mode
 
 
