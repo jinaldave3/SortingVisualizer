@@ -1,0 +1,103 @@
+/* index.css */
+
+/* Body and general layout */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.app {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Styling for the Sorting Visualizer */
+.sorting-visualizer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: #333;
+}
+
+/* Controls Section */
+.controls {
+  margin-bottom: 20px;
+}
+
+button,
+select,
+input[type="range"] {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:disabled,
+select:disabled,
+input[type="range"]:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+input[type="range"] {
+  width: 200px;
+}
+
+label {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+/* Stats Section */
+.stats {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Visualization of array bars */
+.array-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 20px;
+  height: 400px;
+  width: 100%;
+  border: 1px solid #ccc;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.array-bar {
+  background-color: turquoise;
+  margin: 0 1px;
+  display: inline-block;
+  transition: all 0.3s ease;
+  border-radius: 3px;
+}
+
+/* Add responsiveness for smaller screens */
+@media (max-width: 600px) {
+  .array-container {
+    height: 300px;
+  }
+  .array-bar {
+    width: 5px;
+  }
+}
